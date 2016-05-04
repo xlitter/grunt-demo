@@ -1,0 +1,8 @@
+.width {
+  width : calc(50%-20px);
+}
+
+.cal{
+  transition : transform 2s;
+}
+

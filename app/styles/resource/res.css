@@ -1,0 +1,21 @@
+a{
+  display: flex;
+  opacity : 1;
+}
+.tranfrom {
+  animation : 2s ease-in 1s infinite both; 
+}
+
+:fullscreen a {
+    transition: transform 1s
+}
+  
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+  
+  100%{
+    transform: translateX(100%);
+  }
+}
